@@ -41,3 +41,23 @@ Go to http://localhost:3000/greetings/hello on a web browser.
 % docker-compose run --rm web rails d controller Greetings
 % git restore config/routes.rb
 ```
+
+### yarn
+
+```
+% docker-compose run --rm web yarn add bootstrap
+% docker-compose run --rm web yarn add @popperjs/core
+% docker-compose run --rm web yarn add bootstrap-icons
+```
+
+## Bootstrap
+
+https://getbootstrap.com/docs/versions/
+
+### bootstrap.scss
+
+https://github.com/twbs/bootstrap/blob/main/scss/bootstrap.scss
+
+### Bootstrap Icons
+
+https://icons.getbootstrap.com/
